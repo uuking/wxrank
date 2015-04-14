@@ -1,0 +1,1563 @@
+2015/04/14 14:25:34 [error] [php] Undefined variable: model (E:\WWW\wxrank\themes\classic\views\user\register.php:32)
+Stack trace:
+#0 E:\WWW\wxrank\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\WWW\wxrank\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\WWW\wxrank\protected\controllers\UserController.php(18): UserController->render()
+#3 E:\WWW\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#4 E:\WWW\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\WWW\wxrank\framework\web\CController.php(286): UserController->runAction()
+#6 E:\WWW\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\WWW\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\WWW\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\WWW\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 E:\WWW\wxrank\index.php(13): CWebApplication->run()
+REQUEST_URI=/user/register
+in E:\WWW\wxrank\themes\classic\views\user\register.php (32)
+in E:\WWW\wxrank\protected\controllers\UserController.php (18)
+in E:\WWW\wxrank\index.php (13)
+2015/04/14 14:26:31 [error] [php] include(checkUsername.php): failed to open stream: No such file or directory (E:\WWW\wxrank\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 E:\WWW\wxrank\framework\YiiBase.php(303): class_exists()
+#2 E:\WWW\wxrank\framework\validators\CValidator.php(174): import()
+#3 E:\WWW\wxrank\framework\base\CModel.php(287): createValidator()
+#4 E:\WWW\wxrank\framework\base\CModel.php(260): RegisterForm->createValidators()
+#5 E:\WWW\wxrank\framework\base\CModel.php(304): RegisterForm->getValidators()
+#6 E:\WWW\wxrank\framework\web\helpers\CHtml.php(1513): RegisterForm->isAttributeRequired()
+#7 E:\WWW\wxrank\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 E:\WWW\wxrank\themes\classic\views\user\register.php(32): CActiveForm->labelEx()
+#9 E:\WWW\wxrank\framework\web\CBaseController.php(126): require()
+#10 E:\WWW\wxrank\framework\web\CBaseController.php(95): UserController->renderInternal()
+#11 E:\WWW\wxrank\framework\web\CController.php(869): UserController->renderFile()
+#12 E:\WWW\wxrank\framework\web\CController.php(782): UserController->renderPartial()
+#13 E:\WWW\wxrank\protected\controllers\UserController.php(18): UserController->render()
+#14 E:\WWW\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#15 E:\WWW\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams()
+#16 E:\WWW\wxrank\framework\web\CController.php(286): UserController->runAction()
+#17 E:\WWW\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#18 E:\WWW\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#19 E:\WWW\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 E:\WWW\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 E:\WWW\wxrank\index.php(13): CWebApplication->run()
+REQUEST_URI=/user/register
+in E:\WWW\wxrank\themes\classic\views\user\register.php (32)
+in E:\WWW\wxrank\protected\controllers\UserController.php (18)
+in E:\WWW\wxrank\index.php (13)
+2015/04/14 14:26:32 [error] [php] include(checkUsername.php): failed to open stream: No such file or directory (E:\WWW\wxrank\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 E:\WWW\wxrank\framework\YiiBase.php(303): class_exists()
+#2 E:\WWW\wxrank\framework\validators\CValidator.php(174): import()
+#3 E:\WWW\wxrank\framework\base\CModel.php(287): createValidator()
+#4 E:\WWW\wxrank\framework\base\CModel.php(260): RegisterForm->createValidators()
+#5 E:\WWW\wxrank\framework\base\CModel.php(304): RegisterForm->getValidators()
+#6 E:\WWW\wxrank\framework\web\helpers\CHtml.php(1513): RegisterForm->isAttributeRequired()
+#7 E:\WWW\wxrank\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 E:\WWW\wxrank\themes\classic\views\user\register.php(32): CActiveForm->labelEx()
+#9 E:\WWW\wxrank\framework\web\CBaseController.php(126): require()
+#10 E:\WWW\wxrank\framework\web\CBaseController.php(95): UserController->renderInternal()
+#11 E:\WWW\wxrank\framework\web\CController.php(869): UserController->renderFile()
+#12 E:\WWW\wxrank\framework\web\CController.php(782): UserController->renderPartial()
+#13 E:\WWW\wxrank\protected\controllers\UserController.php(18): UserController->render()
+#14 E:\WWW\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#15 E:\WWW\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams()
+#16 E:\WWW\wxrank\framework\web\CController.php(286): UserController->runAction()
+#17 E:\WWW\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#18 E:\WWW\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#19 E:\WWW\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 E:\WWW\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 E:\WWW\wxrank\index.php(13): CWebApplication->run()
+REQUEST_URI=/user/register
+in E:\WWW\wxrank\themes\classic\views\user\register.php (32)
+in E:\WWW\wxrank\protected\controllers\UserController.php (18)
+in E:\WWW\wxrank\index.php (13)
+2015/04/14 14:26:32 [error] [php] include(checkUsername.php): failed to open stream: No such file or directory (E:\WWW\wxrank\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 E:\WWW\wxrank\framework\YiiBase.php(303): class_exists()
+#2 E:\WWW\wxrank\framework\validators\CValidator.php(174): import()
+#3 E:\WWW\wxrank\framework\base\CModel.php(287): createValidator()
+#4 E:\WWW\wxrank\framework\base\CModel.php(260): RegisterForm->createValidators()
+#5 E:\WWW\wxrank\framework\base\CModel.php(304): RegisterForm->getValidators()
+#6 E:\WWW\wxrank\framework\web\helpers\CHtml.php(1513): RegisterForm->isAttributeRequired()
+#7 E:\WWW\wxrank\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 E:\WWW\wxrank\themes\classic\views\user\register.php(32): CActiveForm->labelEx()
+#9 E:\WWW\wxrank\framework\web\CBaseController.php(126): require()
+#10 E:\WWW\wxrank\framework\web\CBaseController.php(95): UserController->renderInternal()
+#11 E:\WWW\wxrank\framework\web\CController.php(869): UserController->renderFile()
+#12 E:\WWW\wxrank\framework\web\CController.php(782): UserController->renderPartial()
+#13 E:\WWW\wxrank\protected\controllers\UserController.php(18): UserController->render()
+#14 E:\WWW\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#15 E:\WWW\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams()
+#16 E:\WWW\wxrank\framework\web\CController.php(286): UserController->runAction()
+#17 E:\WWW\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#18 E:\WWW\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#19 E:\WWW\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 E:\WWW\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 E:\WWW\wxrank\index.php(13): CWebApplication->run()
+REQUEST_URI=/user/register
+in E:\WWW\wxrank\themes\classic\views\user\register.php (32)
+in E:\WWW\wxrank\protected\controllers\UserController.php (18)
+in E:\WWW\wxrank\index.php (13)
+2015/04/14 14:26:32 [error] [php] include(checkUsername.php): failed to open stream: No such file or directory (E:\WWW\wxrank\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 E:\WWW\wxrank\framework\YiiBase.php(303): class_exists()
+#2 E:\WWW\wxrank\framework\validators\CValidator.php(174): import()
+#3 E:\WWW\wxrank\framework\base\CModel.php(287): createValidator()
+#4 E:\WWW\wxrank\framework\base\CModel.php(260): RegisterForm->createValidators()
+#5 E:\WWW\wxrank\framework\base\CModel.php(304): RegisterForm->getValidators()
+#6 E:\WWW\wxrank\framework\web\helpers\CHtml.php(1513): RegisterForm->isAttributeRequired()
+#7 E:\WWW\wxrank\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 E:\WWW\wxrank\themes\classic\views\user\register.php(32): CActiveForm->labelEx()
+#9 E:\WWW\wxrank\framework\web\CBaseController.php(126): require()
+#10 E:\WWW\wxrank\framework\web\CBaseController.php(95): UserController->renderInternal()
+#11 E:\WWW\wxrank\framework\web\CController.php(869): UserController->renderFile()
+#12 E:\WWW\wxrank\framework\web\CController.php(782): UserController->renderPartial()
+#13 E:\WWW\wxrank\protected\controllers\UserController.php(18): UserController->render()
+#14 E:\WWW\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#15 E:\WWW\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams()
+#16 E:\WWW\wxrank\framework\web\CController.php(286): UserController->runAction()
+#17 E:\WWW\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#18 E:\WWW\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#19 E:\WWW\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 E:\WWW\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 E:\WWW\wxrank\index.php(13): CWebApplication->run()
+REQUEST_URI=/user/register
+in E:\WWW\wxrank\themes\classic\views\user\register.php (32)
+in E:\WWW\wxrank\protected\controllers\UserController.php (18)
+in E:\WWW\wxrank\index.php (13)
+2015/04/14 14:27:32 [error] [exception.CException] exception 'CException' with message 'CCaptchaValidator.action "captcha" æ˜¯æ— æ•ˆçš„. æ— æ³•åœ¨ç›®å‰çš„æŽ§åˆ¶å™¨ä¸­æ‰¾åˆ°æ­¤ä¸€åŠ¨ä½œ.' in E:\WWW\wxrank\framework\validators\CCaptchaValidator.php:77
+Stack trace:
+#0 E:\WWW\wxrank\framework\validators\CCaptchaValidator.php(93): CCaptchaValidator->getCaptchaAction()
+#1 E:\WWW\wxrank\framework\web\widgets\CActiveForm.php(510): CCaptchaValidator->clientValidateAttribute(Object(RegisterForm), 'verifyCode')
+#2 E:\WWW\wxrank\themes\classic\views\user\register.php(59): CActiveForm->error(Object(RegisterForm), 'verifyCode')
+#3 E:\WWW\wxrank\framework\web\CBaseController.php(126): require('E:\\WWW\\wxrank\\t...')
+#4 E:\WWW\wxrank\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\\WWW\\wxrank\\t...', Array, true)
+#5 E:\WWW\wxrank\framework\web\CController.php(869): CBaseController->renderFile('E:\\WWW\\wxrank\\t...', Array, true)
+#6 E:\WWW\wxrank\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#7 E:\WWW\wxrank\protected\controllers\UserController.php(18): CController->render('register', Array)
+#8 E:\WWW\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#9 E:\WWW\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 E:\WWW\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 E:\WWW\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\WWW\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#13 E:\WWW\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#14 E:\WWW\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 E:\WWW\wxrank\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/site/login
+---
+2015/04/14 14:33:35 [error] [php] Undefined variable: model (E:\WWW\wxrank\protected\controllers\UserController.php:19)
+Stack trace:
+#0 E:\WWW\wxrank\framework\web\CController.php(286): UserController->runAction()
+#1 E:\WWW\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\WWW\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\WWW\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\WWW\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 E:\WWW\wxrank\index.php(13): CWebApplication->run()
+REQUEST_URI=/user/register
+in E:\WWW\wxrank\protected\controllers\UserController.php (19)
+in E:\WWW\wxrank\index.php (13)
+2015/04/14 14:34:15 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in E:\WWW\wxrank\protected\controllers\UserController.php (21)
+in E:\WWW\wxrank\index.php (13)
+2015/04/14 14:35:07 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in E:\WWW\wxrank\protected\controllers\UserController.php (21)
+in E:\WWW\wxrank\index.php (13)
+2015/04/14 14:36:45 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in E:\WWW\wxrank\protected\controllers\UserController.php (21)
+in E:\WWW\wxrank\index.php (13)
+2015/04/14 14:36:56 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in E:\WWW\wxrank\protected\controllers\UserController.php (21)
+in E:\WWW\wxrank\index.php (13)
+2015/04/14 14:37:02 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in E:\WWW\wxrank\protected\controllers\UserController.php (21)
+in E:\WWW\wxrank\index.php (13)
+2015/04/14 19:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "favicon.ico"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/14 19:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "favicon.ico"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/14 19:35:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "favicon.ico"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/14 19:35:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "favicon.ico"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/14 19:35:40 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:35:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 19:35:41 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:35:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 19:35:53 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:35:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 19:35:56 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:35:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 19:35:58 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:36:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 19:35:58 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:36:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 19:36:29 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:36:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 19:36:48 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:36:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 19:37:10 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:37:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 19:37:20 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:37:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://127.0.0.3/user/register
+---
+2015/04/14 19:37:27 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:37:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://127.0.0.3/user/register
+---
+2015/04/14 19:39:36 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:39:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://127.0.0.3/user/register
+---
+2015/04/14 19:40:04 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:40:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://127.0.0.3/user/register
+---
+2015/04/14 19:40:18 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:40:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 19:40:46 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:40:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\models\RegisterForm.php(50): CActiveRecord->find('user_login=:use...', Array)
+#8 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): RegisterForm->checkUsername('username', Array)
+#9 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(RegisterForm), 'username')
+#10 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#11 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(987): CModel->validate(NULL)
+#12 G:\test\php\wxrank\protected\controllers\UserController.php(21): CActiveForm::validate(Object(RegisterForm))
+#13 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#14 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#19 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 G:\test\php\wxrank\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://127.0.0.3/user/register
+---
+2015/04/14 19:43:14 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 19:52:22 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 20:54:42 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 20:54:48 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 20:54:51 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (21)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 21:12:18 [error] [php] Use of undefined constant WWWPATH - assumed 'WWWPATH' (G:\test\php\wxrank\protected\components\Controller.php:54)
+Stack trace:
+#0 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 G:\test\php\wxrank\index.php(13): CWebApplication->run()
+REQUEST_URI=/user/register
+in G:\test\php\wxrank\protected\components\Controller.php (54)
+in G:\test\php\wxrank\index.php (13)
+2015/04/14 21:13:59 [error] [php] include(Setting.php): failed to open stream: No such file or directory (G:\test\php\wxrank\framework\YiiBase.php:432)
+Stack trace:
+#0 G:\test\php\wxrank\protected\components\Controller.php(62): spl_autoload_call()
+#1 G:\test\php\wxrank\framework\web\CWebApplication.php(281): UserController->init()
+#2 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 G:\test\php\wxrank\index.php(17): CWebApplication->run()
+REQUEST_URI=/user/register
+in G:\test\php\wxrank\protected\components\Controller.php (62)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:14:41 [error] [exception.CException] exception 'CException' with message 'å±žæ€§ "Config.variable" æœªè¢«å®šä¹‰.' in G:\test\php\wxrank\framework\base\CComponent.php:130
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(145): CComponent->__get('variable')
+#1 G:\test\php\wxrank\framework\base\CModel.php(596): CActiveRecord->__get('variable')
+#2 G:\test\php\wxrank\protected\components\Controller.php(64): CModel->offsetGet('variable')
+#3 G:\test\php\wxrank\framework\web\CWebApplication.php(281): Controller->init()
+#4 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#5 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 G:\test\php\wxrank\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 21:15:05 [error] [php] include(Helper.php): failed to open stream: No such file or directory (G:\test\php\wxrank\framework\YiiBase.php:432)
+Stack trace:
+#0 G:\test\php\wxrank\protected\controllers\UserController.php(34): spl_autoload_call()
+#1 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#2 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 G:\test\php\wxrank\framework\web\CController.php(286): UserController->runAction()
+#4 G:\test\php\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 G:\test\php\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#6 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 G:\test\php\wxrank\index.php(17): CWebApplication->run()
+REQUEST_URI=/user/register
+in G:\test\php\wxrank\protected\controllers\UserController.php (34)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:24:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "favicon.ico"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/14 21:24:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "favicon.ico"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/14 21:25:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'ç¦æ­¢æ³¨å†Œ' in G:\test\php\wxrank\protected\controllers\UserController.php:36
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#1 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#5 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#6 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 G:\test\php\wxrank\index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/
+---
+2015/04/14 21:25:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'ç¦æ­¢æ³¨å†Œ' in G:\test\php\wxrank\protected\controllers\UserController.php:36
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#1 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#5 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#6 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 G:\test\php\wxrank\index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/
+---
+2015/04/14 21:26:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'ç¦æ­¢æ³¨å†Œ' in G:\test\php\wxrank\protected\controllers\UserController.php:36
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#1 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#5 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#6 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 G:\test\php\wxrank\index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/
+---
+2015/04/14 21:26:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'ç¦æ­¢æ³¨å†Œ' in G:\test\php\wxrank\protected\controllers\UserController.php:36
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#1 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#5 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#6 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 G:\test\php\wxrank\index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/
+---
+2015/04/14 21:26:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'ç¦æ­¢æ³¨å†Œ' in G:\test\php\wxrank\protected\controllers\UserController.php:36
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#1 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#5 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#6 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 G:\test\php\wxrank\index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/
+---
+2015/04/14 21:27:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'ç¦æ­¢æ³¨å†Œ' in G:\test\php\wxrank\protected\controllers\UserController.php:36
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#1 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#5 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#6 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 G:\test\php\wxrank\index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/
+---
+2015/04/14 21:35:36 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:35:40 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:35:45 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:35:48 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:35:51 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:35:53 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:35:53 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (43)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:40:01 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:40:03 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:40:04 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:42:03 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:42:04 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:42:06 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:42:06 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (43)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:45:44 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:45:44 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (43)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:45:44 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value. The SQL statement executed was: INSERT INTO `wx_user` (`user_login`, `user_pass`, `user_email`, `user_registered`, `user_status`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in G:\test\php\wxrank\protected\controllers\UserController.php (49)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:45:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand æ— æ³•æ‰§è¡Œ SQL è¯­å¥: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value. The SQL statement executed was: INSERT INTO `wx_user` (`user_login`, `user_pass`, `user_email`, `user_registered`, `user_status`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in G:\test\php\wxrank\framework\db\CDbCommand.php:358
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 G:\test\php\wxrank\protected\controllers\UserController.php(49): CActiveRecord->save()
+#3 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#4 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#8 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#9 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\test\php\wxrank\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 21:46:23 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (43)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:46:44 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:46:55 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:46:58 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:47:04 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:47:09 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:47:10 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:47:10 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (43)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:53:37 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:53:42 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:53:44 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:53:48 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:53:53 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (22)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 21:53:53 [warning] [application] Failed to set unsafe attribute "nickname" of "RegisterForm".
+in G:\test\php\wxrank\protected\controllers\UserController.php (43)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 22:06:00 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "createPassword".' in G:\test\php\wxrank\framework\base\CComponent.php:266
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(227): CComponent->__call('createPassword', Array)
+#1 G:\test\php\wxrank\protected\models\User.php(119): CActiveRecord->__call('createPassword', Array)
+#2 G:\test\php\wxrank\protected\models\User.php(119): User->createPassword('shijunxian')
+#3 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1074): User->beforeSave()
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#5 G:\test\php\wxrank\protected\controllers\UserController.php(50): CActiveRecord->save()
+#6 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#7 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#11 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#12 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\test\php\wxrank\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 22:14:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'shijunxian' for key 'user_login_UNIQUE'. The SQL statement executed was: INSERT INTO `wx_user` (`user_login`, `user_pass`, `user_nicename`, `user_email`, `user_registered`, `user_status`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in G:\test\php\wxrank\protected\controllers\UserController.php (50)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 22:14:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand æ— æ³•æ‰§è¡Œ SQL è¯­å¥: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'shijunxian' for key 'user_login_UNIQUE'. The SQL statement executed was: INSERT INTO `wx_user` (`user_login`, `user_pass`, `user_nicename`, `user_email`, `user_registered`, `user_status`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in G:\test\php\wxrank\framework\db\CDbCommand.php:358
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 G:\test\php\wxrank\protected\controllers\UserController.php(50): CActiveRecord->save()
+#3 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#4 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#8 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#9 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\test\php\wxrank\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 22:14:33 [error] [php] include(Setting.php): failed to open stream: No such file or directory (G:\test\php\wxrank\framework\YiiBase.php:432)
+Stack trace:
+#0 G:\test\php\wxrank\protected\components\Helper.php(96): spl_autoload_call()
+#1 G:\test\php\wxrank\protected\controllers\UserController.php(91): sendMail()
+#2 G:\test\php\wxrank\protected\controllers\UserController.php(54): UserController->sendActiveAccount()
+#3 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#4 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 G:\test\php\wxrank\framework\web\CController.php(286): UserController->runAction()
+#6 G:\test\php\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 G:\test\php\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#8 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\test\php\wxrank\index.php(17): CWebApplication->run()
+REQUEST_URI=/user/register
+in G:\test\php\wxrank\protected\components\Helper.php (96)
+in G:\test\php\wxrank\protected\controllers\UserController.php (91)
+in G:\test\php\wxrank\protected\controllers\UserController.php (54)
+2015/04/14 22:15:41 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'shijunxian' for key 'user_login_UNIQUE'. The SQL statement executed was: INSERT INTO `wx_user` (`user_login`, `user_pass`, `user_nicename`, `user_email`, `user_registered`, `user_status`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in G:\test\php\wxrank\protected\controllers\UserController.php (50)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 22:15:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand æ— æ³•æ‰§è¡Œ SQL è¯­å¥: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'shijunxian' for key 'user_login_UNIQUE'. The SQL statement executed was: INSERT INTO `wx_user` (`user_login`, `user_pass`, `user_nicename`, `user_email`, `user_registered`, `user_status`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in G:\test\php\wxrank\framework\db\CDbCommand.php:358
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 G:\test\php\wxrank\protected\controllers\UserController.php(50): CActiveRecord->save()
+#3 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#4 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#8 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#9 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\test\php\wxrank\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 22:17:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wxrank.wx_mail_log' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `wx_mail_log`.
+in G:\test\php\wxrank\protected\components\Helper.php (117)
+in G:\test\php\wxrank\protected\controllers\UserController.php (91)
+in G:\test\php\wxrank\protected\controllers\UserController.php (54)
+2015/04/14 22:17:01 [error] [exception.CDbException] exception 'CDbException' with message 'æ•°æ®åº“ä¸­æ— æ³•æ‰¾åˆ° active record class "MailLog" å¯¹åº”çš„ table "{{mail_log}}".' in G:\test\php\wxrank\framework\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(MailLog))
+#1 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 G:\test\php\wxrank\protected\components\Helper.php(117): CActiveRecord->__construct()
+#3 G:\test\php\wxrank\protected\controllers\UserController.php(91): Helper::sendMail(0, '1210889580@qq.c...', '\xE8\xB4\xA6\xE5\x8F\xB7\xE6\xBF\x80\xE6\xB4\xBB', '<p>\xE5\xB0\x8A\xE6\x95\xAC\xE7\x9A\x84\xE6\x96\xB0...')
+#4 G:\test\php\wxrank\protected\controllers\UserController.php(54): UserController->sendActiveAccount(Array)
+#5 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#6 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('register')
+#10 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#11 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 G:\test\php\wxrank\index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 22:19:17 [error] [exception.CException] exception 'CException' with message 'å±žæ€§ "User.status" æœªè¢«å®šä¹‰.' in G:\test\php\wxrank\framework\base\CComponent.php:130
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(145): CComponent->__get('status')
+#1 G:\test\php\wxrank\protected\controllers\UserController.php(108): CActiveRecord->__get('status')
+#2 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionAuthEmail()
+#3 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('authEmail')
+#7 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/authEmail')
+#8 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 G:\test\php\wxrank\index.php(17): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/authEmail?authcode=3db5eiTTy%252BMlv0cEXXZFZg5GaOSlh42o0T1YHYTt7A
+---
+2015/04/14 22:20:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "public/images/message_success.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('public/images/m...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/images/message_success.png
+HTTP_REFERER=http://wxrank.com/user/authEmail?authcode=3db5eiTTy%252BMlv0cEXXZFZg5GaOSlh42o0T1YHYTt7A
+---
+2015/04/14 22:26:48 [error] [php] include(authenticate.php): failed to open stream: No such file or directory (G:\test\php\wxrank\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 G:\test\php\wxrank\framework\YiiBase.php(303): class_exists()
+#2 G:\test\php\wxrank\framework\validators\CValidator.php(174): import()
+#3 G:\test\php\wxrank\framework\base\CModel.php(287): createValidator()
+#4 G:\test\php\wxrank\framework\base\CModel.php(260): LoginForm->createValidators()
+#5 G:\test\php\wxrank\framework\base\CModel.php(304): LoginForm->getValidators()
+#6 G:\test\php\wxrank\framework\web\helpers\CHtml.php(1513): LoginForm->isAttributeRequired()
+#7 G:\test\php\wxrank\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 G:\test\php\wxrank\themes\classic\views\user\login.php(22): CActiveForm->labelEx()
+#9 G:\test\php\wxrank\framework\web\CBaseController.php(126): require()
+#10 G:\test\php\wxrank\framework\web\CBaseController.php(95): UserController->renderInternal()
+#11 G:\test\php\wxrank\framework\web\CController.php(869): UserController->renderFile()
+#12 G:\test\php\wxrank\framework\web\CController.php(782): UserController->renderPartial()
+#13 G:\test\php\wxrank\protected\controllers\UserController.php(13): UserController->render()
+#14 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#15 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams()
+#16 G:\test\php\wxrank\framework\web\CController.php(286): UserController->runAction()
+#17 G:\test\php\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#18 G:\test\php\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#19 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 G:\test\php\wxrank\index.php(17): CWebApplication->run()
+REQUEST_URI=/user/login
+in G:\test\php\wxrank\themes\classic\views\user\login.php (22)
+in G:\test\php\wxrank\protected\controllers\UserController.php (13)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 22:51:42 [error] [php] Creating default object from empty value (G:\test\php\wxrank\protected\controllers\UserController.php:46)
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CController.php(286): UserController->runAction()
+#1 G:\test\php\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 G:\test\php\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#3 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 G:\test\php\wxrank\index.php(17): CWebApplication->run()
+REQUEST_URI=/user/login
+in G:\test\php\wxrank\protected\controllers\UserController.php (46)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 22:53:11 [error] [php] Creating default object from empty value (G:\test\php\wxrank\protected\controllers\UserController.php:46)
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CController.php(286): UserController->runAction()
+#1 G:\test\php\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 G:\test\php\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#3 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 G:\test\php\wxrank\index.php(17): CWebApplication->run()
+REQUEST_URI=/user/login
+in G:\test\php\wxrank\protected\controllers\UserController.php (46)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 22:53:24 [error] [php] Creating default object from empty value (G:\test\php\wxrank\protected\controllers\UserController.php:46)
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CController.php(286): UserController->runAction()
+#1 G:\test\php\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 G:\test\php\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#3 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 G:\test\php\wxrank\index.php(17): CWebApplication->run()
+REQUEST_URI=/user/login
+in G:\test\php\wxrank\protected\controllers\UserController.php (46)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 22:54:06 [error] [php] Creating default object from empty value (G:\test\php\wxrank\protected\controllers\UserController.php:46)
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CController.php(286): UserController->runAction()
+#1 G:\test\php\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 G:\test\php\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#3 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 G:\test\php\wxrank\index.php(17): CWebApplication->run()
+REQUEST_URI=/user/login
+in G:\test\php\wxrank\protected\controllers\UserController.php (46)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 22:55:07 [error] [php] Creating default object from empty value (G:\test\php\wxrank\protected\controllers\UserController.php:46)
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CController.php(286): UserController->runAction()
+#1 G:\test\php\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 G:\test\php\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#3 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 G:\test\php\wxrank\index.php(17): CWebApplication->run()
+REQUEST_URI=/user/login
+in G:\test\php\wxrank\protected\controllers\UserController.php (46)
+in G:\test\php\wxrank\index.php (17)
+2015/04/14 22:56:36 [error] [exception.CException] exception 'CException' with message 'å±žæ€§ "User.username" æœªè¢«å®šä¹‰.' in G:\test\php\wxrank\framework\base\CComponent.php:130
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 G:\test\php\wxrank\protected\models\User.php(102): CActiveRecord->__get('username')
+#2 G:\test\php\wxrank\protected\controllers\UserController.php(50): User->login()
+#3 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('login')
+#8 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\test\php\wxrank\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://wxrank.com/user/login
+---
+2015/04/14 22:57:13 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in G:\test\php\wxrank\framework\base\CComponent.php:266
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 G:\test\php\wxrank\protected\components\UserIdentity.php(24): CActiveRecord->__call('validatePasswor...', Array)
+#2 G:\test\php\wxrank\protected\components\UserIdentity.php(24): User->validatePassword('shijunxian')
+#3 G:\test\php\wxrank\protected\models\User.php(103): UserIdentity->authenticate()
+#4 G:\test\php\wxrank\protected\controllers\UserController.php(50): User->login()
+#5 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#6 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('login')
+#10 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#11 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 G:\test\php\wxrank\index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://wxrank.com/user/login
+---
+2015/04/14 22:58:39 [error] [exception.CException] exception 'CException' with message 'å±žæ€§ "User.password" æœªè¢«å®šä¹‰.' in G:\test\php\wxrank\framework\base\CComponent.php:130
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(145): CComponent->__get('password')
+#1 G:\test\php\wxrank\protected\models\User.php(141): CActiveRecord->__get('password')
+#2 G:\test\php\wxrank\protected\components\UserIdentity.php(24): User->validatePassword('shijunxian')
+#3 G:\test\php\wxrank\protected\models\User.php(103): UserIdentity->authenticate()
+#4 G:\test\php\wxrank\protected\controllers\UserController.php(50): User->login()
+#5 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#6 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('login')
+#10 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#11 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 G:\test\php\wxrank\index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://wxrank.com/user/login
+---
+2015/04/14 23:14:21 [error] [exception.CException] exception 'CException' with message 'å±žæ€§ "User.password" æœªè¢«å®šä¹‰.' in G:\test\php\wxrank\framework\base\CComponent.php:130
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(145): CComponent->__get('password')
+#1 G:\test\php\wxrank\protected\models\User.php(104): CActiveRecord->__get('password')
+#2 G:\test\php\wxrank\protected\components\UserIdentity.php(25): User->validatePassword('shijunxian')
+#3 G:\test\php\wxrank\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#4 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 G:\test\php\wxrank\protected\controllers\UserController.php(48): CModel->validate()
+#8 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#9 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('login')
+#13 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#14 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 G:\test\php\wxrank\index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://wxrank.com/user/login
+---
+2015/04/14 23:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "public/images/message_success.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('public/images/m...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/images/message_success.png
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 23:20:18 [error] [exception.CException] exception 'CException' with message 'å±žæ€§ "User.uid" æœªè¢«å®šä¹‰.' in G:\test\php\wxrank\framework\base\CComponent.php:130
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(145): CComponent->__get('uid')
+#1 G:\test\php\wxrank\protected\components\UserIdentity.php(30): CActiveRecord->__get('uid')
+#2 G:\test\php\wxrank\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#3 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 G:\test\php\wxrank\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 G:\test\php\wxrank\protected\controllers\UserController.php(48): CModel->validate()
+#7 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#8 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 G:\test\php\wxrank\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('login')
+#12 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#13 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 G:\test\php\wxrank\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://wxrank.com/user/login
+---
+2015/04/14 23:20:38 [error] [php] include(UserGroup.php): failed to open stream: No such file or directory (G:\test\php\wxrank\framework\YiiBase.php:432)
+Stack trace:
+#0 G:\test\php\wxrank\protected\components\UserIdentity.php(32): spl_autoload_call()
+#1 G:\test\php\wxrank\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#2 G:\test\php\wxrank\framework\validators\CInlineValidator.php(42): LoginForm->authenticate()
+#3 G:\test\php\wxrank\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute()
+#4 G:\test\php\wxrank\framework\base\CModel.php(159): CInlineValidator->validate()
+#5 G:\test\php\wxrank\protected\controllers\UserController.php(48): LoginForm->validate()
+#6 G:\test\php\wxrank\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#7 G:\test\php\wxrank\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 G:\test\php\wxrank\framework\web\CController.php(286): UserController->runAction()
+#9 G:\test\php\wxrank\framework\web\CController.php(265): UserController->runActionWithFilters()
+#10 G:\test\php\wxrank\framework\web\CWebApplication.php(282): UserController->run()
+#11 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 G:\test\php\wxrank\index.php(17): CWebApplication->run()
+REQUEST_URI=/user/login
+in G:\test\php\wxrank\protected\components\UserIdentity.php (32)
+in G:\test\php\wxrank\protected\models\LoginForm.php (54)
+in G:\test\php\wxrank\protected\controllers\UserController.php (48)
+2015/04/14 23:25:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "public/images/message_success.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('public/images/m...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/images/message_success.png
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 23:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "favicon.ico"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/14 23:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "favicon.ico"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/14 23:31:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "public/images/message_success.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('public/images/m...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/public/images/message_success.png
+HTTP_REFERER=http://wxrank.com/user/register
+---
+2015/04/14 23:34:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/js/main.js"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/js/main.j...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/js/main.js
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/js/bootstrap.min.js"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/js/bootst...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/js/jquery.min.js"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/js/jquery...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/js/jquery.min.js
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/css/style.css"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/css/style...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/css/style.css
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/logo.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/log...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/logo.png
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/thumb_277_185_20150403022457866.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/thu...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/thumb_277_185_20150403022457866.png
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/20150403112443758.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/201...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/20150403112443758.png
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/sm_menu.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/sm_...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/sm_menu.png
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/pixel.gif"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/pix...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/pixel.gif
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/20150318120316393.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/201...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/20150318120316393.png
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/thumb_277_185_20150403023201773.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/thu...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/thumb_277_185_20150403023201773.png
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/20150316114431486.jpg"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/201...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/20150316114431486.jpg
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/20150401034010268.jpg"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/201...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/20150401034010268.jpg
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/20141216110815202.jpg"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/201...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/20141216110815202.jpg
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/20140825044634937.jpg"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/201...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/20140825044634937.jpg
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/1738511237.jpg"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/173...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/1738511237.jpg
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/20140825055836783.jpg"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/201...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/20140825055836783.jpg
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/20140703082012101.jpg"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/201...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/20140703082012101.jpg
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/20140710042715952.jpg"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/201...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/20140710042715952.jpg
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/20140717031250529.gif"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/201...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/20140717031250529.gif
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/iheima_weixin.jpg"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/ihe...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/iheima_weixin.jpg
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/support_logo_tc.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/sup...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/support_logo_tc.png
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/support_logo_uc.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/sup...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/support_logo_uc.png
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/support_logo_ytx.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/sup...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/support_logo_ytx.png
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/huawei_logo_03.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/hua...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/huawei_logo_03.png
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/image/support_logo_juhe.png"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/image/sup...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/image/support_logo_juhe.png
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/js/bootstrap.min.js"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/js/bootst...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/wxrank--/
+---
+2015/04/14 23:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "media/js/main.js"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('media/js/main.j...')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/media/js/main.js
+HTTP_REFERER=http://localhost/wxrank--/
+---
