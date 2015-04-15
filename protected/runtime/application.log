@@ -3680,3 +3680,37 @@ Stack trace:
 REQUEST_URI=/post/index
 HTTP_REFERER=http://wxrank.com/post/index?Article_page=6
 ---
+2015/04/15 19:47:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in G:\test\php\wxrank\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\test\php\wxrank\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\test\php\wxrank\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\test\php\wxrank\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\test\php\wxrank\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 G:\test\php\wxrank\framework\db\ar\CActiveRecord.php(1474): CActiveRecord->getCommandBuilder()
+#7 G:\test\php\wxrank\protected\components\Controller.php(62): CActiveRecord->findAll()
+#8 G:\test\php\wxrank\framework\web\CWebApplication.php(281): Controller->init()
+#9 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 G:\test\php\wxrank\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/
+---
+2015/04/15 19:47:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "favicon.ico"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/15 19:47:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'æ— æ³•è§£æžè¯·æ±‚ "favicon.ico"ã€‚' in G:\test\php\wxrank\framework\web\CWebApplication.php:286
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 G:\test\php\wxrank\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
