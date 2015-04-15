@@ -29,6 +29,8 @@ $RECYCLE.BIN/
 .LSOverride
 framework/
 assets/
+media/
+
 # Thumbnails
 ._*
 

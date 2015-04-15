@@ -94,11 +94,11 @@ class UserController extends Controller
 					
 					//发送激活邮件				
 					$this->sendActiveAccount(array('id'=>$userModel->id, 'email'=>$userModel->user_email, 'username'=>$userModel->user_login));
-					$this->message('success', Yii::t('common','Register Success And Active Email'), $this->createUrl('login'), 5);
 					//登陆
 					$loginForm->username = $registerModel->username;
 					$loginForm->password = $registerModel->password;
 					$loginForm->login();
+					$this->message('success', Yii::t('common','Register Success And Active Email'), $this->createUrl('login'), 5);
 				}else{					
 					$this->message('success', Yii::t('common','Register Success'), $this->createUrl('login'), 5);
 				}

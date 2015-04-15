@@ -54,7 +54,7 @@ $this->breadcrumbs=array(
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('注册'); ?>
+		<?php echo CHtml::submitButton(Yii::t('common','Register')); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
