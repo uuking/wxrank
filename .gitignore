@@ -30,6 +30,7 @@ $RECYCLE.BIN/
 framework/
 assets/
 media/
+.log
 
 # Thumbnails
 ._*
