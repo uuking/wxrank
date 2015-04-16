@@ -84,22 +84,24 @@ function list_article($biaoshi,$key,$uin){
     if(isset($content->general_msg_list)){
 
         $obj = json_decode($content->general_msg_list);
-        foreach ($obj->list as $k => $v) {
-            if(!isset($v->app_msg_ext_info->content_url)){continue;}
-            $content_url = htmlspecialchars_decode($v->app_msg_ext_info->content_url);
-            $articles[$k]['content_url'] = $content_url;
-            $articles[$k]['title']=$v->app_msg_ext_info->title;
-            $articles[$k]['digest']=$v->app_msg_ext_info->digest;
-            $articles[$k]['cover']=$v->app_msg_ext_info->cover;
-            $articles[$k]['datetime']=$v->comm_msg_info->datetime;
-            if($v->app_msg_ext_info->multi_app_msg_item_list){
-                foreach ($v->app_msg_ext_info->multi_app_msg_item_list as $ik => $iv) {
-                    $multi_content_url = htmlspecialchars_decode($iv->content_url);
-                    $articles[$k]['multi'][$ik]['content_url'] = $multi_content_url;
-                    $articles[$k]['multi'][$ik]['datetime']=$v->comm_msg_info->datetime;
-                    $articles[$k]['multi'][$ik]['title']=$iv->title;
-                    $articles[$k]['multi'][$ik]['digest']=$iv->digest;
-                    $articles[$k]['multi'][$ik]['cover']=$iv->cover;
+        if(isset($obj->list)){
+            foreach ($obj->list as $k => $v) {
+                if(!isset($v->app_msg_ext_info->content_url)){continue;}
+                $content_url = htmlspecialchars_decode($v->app_msg_ext_info->content_url);
+                $articles[$k]['content_url'] = $content_url;
+                $articles[$k]['title']=$v->app_msg_ext_info->title;
+                $articles[$k]['digest']=$v->app_msg_ext_info->digest;
+                $articles[$k]['cover']=$v->app_msg_ext_info->cover;
+                $articles[$k]['datetime']=$v->comm_msg_info->datetime;
+                if($v->app_msg_ext_info->multi_app_msg_item_list){
+                    foreach ($v->app_msg_ext_info->multi_app_msg_item_list as $ik => $iv) {
+                        $multi_content_url = htmlspecialchars_decode($iv->content_url);
+                        $articles[$k]['multi'][$ik]['content_url'] = $multi_content_url;
+                        $articles[$k]['multi'][$ik]['datetime']=$v->comm_msg_info->datetime;
+                        $articles[$k]['multi'][$ik]['title']=$iv->title;
+                        $articles[$k]['multi'][$ik]['digest']=$iv->digest;
+                        $articles[$k]['multi'][$ik]['cover']=$iv->cover;
+                    }
                 }
             }
         }
