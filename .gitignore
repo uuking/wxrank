@@ -44,3 +44,5 @@ media/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.log
+protected/runtime/application.log
