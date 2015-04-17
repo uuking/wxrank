@@ -3714,3 +3714,20 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2015/04/15 20:26:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in G:\test\php\wxrank\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 G:\test\php\wxrank\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#1 G:\test\php\wxrank\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 G:\test\php\wxrank\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 G:\test\php\wxrank\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 G:\test\php\wxrank\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 G:\test\php\wxrank\framework\web\CController.php(291): CFilterChain->run()
+#6 G:\test\php\wxrank\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 G:\test\php\wxrank\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 G:\test\php\wxrank\framework\web\CWebApplication.php(141): CWebApplication->runController('post/admin')
+#9 G:\test\php\wxrank\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 G:\test\php\wxrank\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/post/admin
+HTTP_REFERER=http://wxrank.com/post/index
+---
