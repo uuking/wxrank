@@ -39,8 +39,12 @@ return array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
+<<<<<<< HEAD
 			// 'class' => 'CAdminUser',
 			'loginUrl' => array('user/login'),
+=======
+			'loginUrl' => array('user/login'),  
+>>>>>>> origin/master
 		),
 
 		// uncomment the following to enable URLs in path-format

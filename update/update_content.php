@@ -1,16 +1,16 @@
 <?php
 set_time_limit(0);
+require_once 'conn.php';
 for(;;){
-	require_once 'conn.php';
 	$time = time();
 	$sql=mysqli_query($connect,"SELECT `id`, `article_url`, `article_headimg` FROM `wx_article` as a LEFT JOIN `wx_article_update` AS au ON a.`id` = au.`article_id` WHERE `article_content`='0' ORDER BY a.`article_ctime` DESC LIMIT 1;");
 	if($re_row = mysqli_fetch_array($sql)){
 		$content = get_content($re_row['article_url'],$re_row['article_headimg']);
-		if(isset($content)){
+		if(isset($content['turl'])&&isset($content['content'])){
 			mysqli_query($connect,"UPDATE wx_article SET `article_headimg`='{$content['turl']}',`article_content`='{$content['content']}' where id = {$re_row['id']}");
 		}else{
-			mysqli_query($connect,"delete wx_article where id = {$re_row['id']}");
-			mysqli_query($connect,"delete wx_article_update where article_id = {$re_row['id']}");
+			mysqli_query($connect,"delete from wx_article where id = {$re_row['id']}");
+			mysqli_query($connect,"delete from wx_article_update where article_id = {$re_row['id']}");
 		}
 	sleep(1);
 	}else{
@@ -36,10 +36,12 @@ function get_content($url,$touurl){
 			$end_pos = stripos($value,"\"");
 			$imgurl[] = substr($value, 0,$end_pos);
 		}
-		foreach ($imgurl as $key => $value) {
-			$filename = getFilename();
-			$new_imgurl = getImage($value,$filename);
-			$block = str_replace($value,$new_imgurl,$block);
+		if($imgurl){
+			foreach ($imgurl as $key => $value) {
+				$filename = getFilename();
+				$new_imgurl = getImage($value,$filename);
+				$block = str_replace($value,$new_imgurl,$block);
+			}
 		}
 		$block=str_replace("data-src","src",$block);
 		$tname = getFilename();

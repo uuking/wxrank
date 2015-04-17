@@ -11,6 +11,8 @@
  */
 class Term extends CActiveRecord
 {
+
+	public $child;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -97,4 +99,5 @@ class Term extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
 }

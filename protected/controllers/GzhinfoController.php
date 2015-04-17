@@ -1,6 +1,6 @@
 <?php
 
-class PostController extends Controller
+class GzhinfoController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -37,11 +37,7 @@ class PostController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-<<<<<<< HEAD
-				'users'=>array('1210889580@qq.com'),
-=======
-				'users'=>array('shijunxian'),
->>>>>>> origin/master
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -66,14 +62,14 @@ class PostController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Article;
+		$model=new Gzhinfo;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Article']))
+		if(isset($_POST['Gzhinfo']))
 		{
-			$model->attributes=$_POST['Article'];
+			$model->attributes=$_POST['Gzhinfo'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -95,9 +91,9 @@ class PostController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Article']))
+		if(isset($_POST['Gzhinfo']))
 		{
-			$model->attributes=$_POST['Article'];
+			$model->attributes=$_POST['Gzhinfo'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -125,26 +121,44 @@ class PostController extends Controller
 	 * Lists all models.
 	 */
 	public function actionIndex()
-	{	
-		$criteria=new CDbCriteria(array(
-			'order'=>'article_ctime DESC',
-			'with'=>array('gzhinfo','gzhinfo.term'),
-		));
-		$dataProvider=new CActiveDataProvider('Article',array('criteria'=>$criteria));
+	{
+		global $category;
+		$category = Term::model()->findAll();
+		$arr = $this->get_cat_array();
+
+		print_r($arr);
+		die;
+		$dataProvider=new CActiveDataProvider('Gzhinfo');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
 	}
 
+	//无限分类递归数组
+    public function get_cat_array($pid = 0)
+    {
+        global $category;
+        foreach($category as $index => $row){
+            //对每个分类进行循环。 
+            if($category[$index]['term_parent'] == $pid){ //如果有子类    
+                $row['child'] = $this->get_cat_array($category[$index]['id']);
+                //调用函数，传入参数，继续查询下级
+                $arr[] = $row; //组合数组
+            }  
+        }
+        
+        return $arr;
+    }
+	
 	/**
 	 * Manages all models.
 	 */
 	public function actionAdmin()
 	{
-		$model=new Article('search');
+		$model=new Gzhinfo('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Article']))
-			$model->attributes=$_GET['Article'];
+		if(isset($_GET['Gzhinfo']))
+			$model->attributes=$_GET['Gzhinfo'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -155,17 +169,12 @@ class PostController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Article the loaded model
+	 * @return Gzhinfo the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$criteria=new CDbCriteria(array(
-			'condition'=>'t.id='.$id,
-			'order'=>'article_ctime DESC',
-			'with'=>array('gzhinfo','gzhinfo.term'),
-		));
-		$model=Article::model()->find($criteria);
+		$model=Gzhinfo::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -173,11 +182,11 @@ class PostController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Article $model the model to be validated
+	 * @param Gzhinfo $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='article-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='gzhinfo-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
