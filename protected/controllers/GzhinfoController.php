@@ -140,14 +140,14 @@ class GzhinfoController extends Controller
         global $category;
         foreach($category as $index => $row){
             //对每个分类进行循环。 
-            if($category[$index]['term_parent'] == $pid){ //如果有子类
-            	$arr[] = $row; //组合数组  
-                $arr[]['child'] = $this->get_cat_array($category[$index]['id']);
+            if($category[$index]['term_parent'] == $pid){ //如果有子类    
+                $row['child'] = $this->get_cat_array($category[$index]['id']);
                 //调用函数，传入参数，继续查询下级
+                $arr[] = $row; //组合数组
             }  
         }
         
-        return $row;
+        return $arr;
     }
 	
 	/**
