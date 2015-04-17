@@ -37,11 +37,9 @@ class PostController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-<<<<<<< HEAD
-				'users'=>array('1210889580@qq.com'),
-=======
-				'users'=>array('shijunxian'),
->>>>>>> origin/master
+
+				'users'=>array('shijunxian','1210889580@qq.com'),
+
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
